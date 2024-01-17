@@ -48,6 +48,8 @@ body {
 }
 .profile-footer a,
 .profile-footer button {
+  background: none;
+  border: none;
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -57,8 +59,10 @@ body {
   font-weight: 600;
   color: goldenrod;
   transition: 0.2s;
+  cursor: pointer;
 }
-.profile-footer a:hover {
+.profile-footer a:hover,
+.profile-footer button:hover {
   opacity: 70%;
   scale: 0.9;
 }
