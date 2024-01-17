@@ -46,7 +46,8 @@ body {
   flex-wrap: wrap;
   gap: 2rem;
 }
-.profile-footer a {
+.profile-footer a,
+.profile-footer button {
   display: flex;
   flex-direction: column;
   text-decoration: none;
