@@ -5,5 +5,6 @@ $(document).ready(function () {
   $("#discord").click(function () {
     navigator.clipboard.writeText("kidkuda");
     alert("Discord copied to clipboard");
+    console.log("holaa");
   });
 });
